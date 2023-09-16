@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-color: #ebe7e7;
+}
+h1,h2,h3,h4,h6{
+    font-size: 600;
+    font-family: Noto Sans;
+}
+h5{
+    font-weight: 400;
+    font-family: Noto Sans;
+}
+.search-bar{
+    height: 50px;
+    .input-container{
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 800px;
+        height: 40px;
+        
+    }
+    .input {
+        width: 100%;
+        height: 100%;
+        border: 3px solid black;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}
+.card{
+        width: 250px;
+        height: 350px;
+        border: 3px solid;
+        box-shadow: 2px 2px 2px 1px rgba(2, 2, 2, 1);
+        display: flex;
+        flex-direction: column;
+        transition: .4s;
+        position: relative;
+        flex: 0 0 calc(33.33% - 5px); 
+        padding: 10px; 
+        box-sizing: border-box; 
+    
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0px 0px 10px 2px #5a5a5a;
+    }
+    .card__title{
+        font-size: 40px;
+    }
+    .card__number{
+        font-size: 30px;
+        
+    }
+    .card__title#Green {
+        background-color: green;
+    }
+    .card__title#Blue {
+        background-color: blue;
+    }
+    .card__title#Red {
+        background-color: red;
+    }
+    .card__title#Yellow {
+        background-color: yellow;
+    }
+    .card__title#pink {
+        background-color: pink;
+    }
+    .card__title#Grey {
+        background-color: gray;
+    }
+    .card__title#Orange {
+        background-color: orange;
+    } 
+    .card__title#Violet {
+        background-color: violet;
+    }
+    .card__title#Black {
+        background-color: black;
+    }
+    .card__title#Lime {
+        background-color: lime;
+    }
+    .card__title#Brown {
+        background-color: brown;
+    }
+    .card__title#Khaki {
+        background-color: khaki;
+    }
+}
+.container {
+    display: flex;
+    .sidebar {
+        height: 200px;
+        width: 230px;
+        background-color: lightgray;
+        border: 2px solid;
+        box-shadow: 2px 2px 2px 1px rgba(2, 2, 2, 1);
+        h4{
+            display: block;
+            margin-top: 15px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        input{
+            width: 30px;
+            height: 30px;
+        }
+        label{
+            font-size :18px;
+        }
+        #To{
+            margin-right: 20px;
+        }
+        .input-div{
+            margin-left: 20px;
+        }
+    }
+    .content {
+        flex-grow: 1;
+        padding: 10px;
+        .content__container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            max-width: 800px; 
+            margin-left: 10px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
